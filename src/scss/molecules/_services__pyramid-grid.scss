@@ -1,0 +1,55 @@
+.services__pyramid-grid {
+  //override bootstrap grid gutters
+  .col-sm-6, .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    @media screen and (max-width: $width-sm) and (min-width: 550px) {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .services--thumbnail-text {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    h6 {
+      a { @include link-color(#5a710d); }
+      color: #5a710d;
+      padding-left: 10px;
+      margin-bottom: 0;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      @include font-size(28px, 25px, 28px, 25px, 20px);
+      font-family: $ff-mont;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .services-plus {
+      font-weight: 400;
+      color: #444444;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+  }
+  .service-card:hover {
+    .image-link {
+      @include hover-plus();
+    }
+    h6 {
+      color: #5a710d;
+      text-decoration: underline;
+    }
+    .services-plus {
+      text-decoration: underline;
+    }
+  }
+  .services-plus {
+    text-decoration: underline;
+  }
+}

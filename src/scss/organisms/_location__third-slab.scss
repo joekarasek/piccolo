@@ -1,0 +1,23 @@
+.location.location__third-slab {
+  @media  (min-width: 992px) {
+    display: flex;
+    flex-direction: row;
+    .location__card--wrapper {
+      width: 40%;
+    }
+    .location__map {
+      width: 60%;
+      height: 100%;
+    }
+  }
+  @media  (min-width: 1200px) {
+    .location__card--wrapper {
+      width: 50%;
+    }
+    .location__map {
+      width: 50%;
+    }
+  }
+
+
+}

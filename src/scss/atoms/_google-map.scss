@@ -1,0 +1,15 @@
+#google-map5 {
+  height: 200px;
+  @media (min-width: $width-xs) {
+    height:250px;
+  }
+  @media (min-width: $width-sm) {
+    height:350px;
+  }
+  @media (min-width: $width-md) {
+    height: 1000px;
+  }
+  @media (min-width: $width-lg) {
+    height: 1060px;
+  }
+}

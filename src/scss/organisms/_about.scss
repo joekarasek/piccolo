@@ -1,0 +1,100 @@
+.about {
+  background-color: rgba(94, 162, 168, 0.24);
+  &__secondary {
+    background-color: #f4f3ee;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-image: url('/assets/about-heading-background.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__main {
+      color: #006674;
+      margin-bottom: 0;
+      line-height: 1;
+    }
+    &__byline {
+      font-style: italic;
+      color: #515151;
+      font-family: $ff-poly;
+    }
+  }
+
+  .doctor-anderson__wrapper {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    @media (min-width: $width-sm) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+    &__image-wrapper {
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      @media (min-width: $width-sm) {
+        width: 40%;
+      }
+      @media (min-width: $width-md) {
+        width: 35%;
+      }
+      @media (max-width: $width-sm) {
+        margin-bottom: 15px;
+        img { max-width: 280px; }
+      }
+    }
+    &__copy-wrapper {
+      @media (min-width: $width-sm) {
+        padding: 0 20px;
+        width: 60%;
+      }
+    }
+      &__doctor-name {
+        color: #435363;
+        font-family: $ff-mont;
+        margin-bottom: 0;
+      }
+      &__doctor-title {
+        color: #435363;
+        font-family: $ff-poly;
+        font-style: italic;
+        line-height: 1;
+        margin-bottom: 20px;
+      }
+      &__copy {
+        color: #585756;
+        font-size: 14px;
+        line-height: 1.5 !important;
+      }
+
+  &__video {
+    background-color: #195B87;
+    border-bottom: solid 5px #ffffff;
+  }
+    &__video-thumb {
+      text-align: center;
+      img {
+        border: solid 10px #ffffff;
+        margin-bottom: 45px;
+      }
+    }
+}
+
+
+
