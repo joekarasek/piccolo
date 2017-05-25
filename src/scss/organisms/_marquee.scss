@@ -84,58 +84,69 @@
 
   .slide2 {
     .slide__title {
-      color: #006674;
-      font-family: $ff-mont;
-      margin-bottom: 10px;
-      line-height: 1.2;
-      font-weight: 700;
+      color: #016E92;
+      margin-bottom: 30px;
+      line-height: 0.4;
+      font-weight: 900;
+      font-family: $ff-lato;
+      text-transform: uppercase;
+      letter-spacing: 5.5px;
       &:first-line {
-        color: #515151;
-        font-family: $ff-poly;
-        font-style: italic;
+        text-transform: none;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: $ff-sanchez;
         font-weight: 400;
+        @include h2();
       }
-      @include font-size(48px,
-              40px,
+      @include font-size(34px,
+              32px,
               35px,
               30px,
               30px);
     }
-    .stars {
-      line-height: 1.1;
-      margin-bottom: 15px;
-    }
-    .icon-star3 {
-      color: rgba(251, 221, 1, 0.71);
-    }
+    //.stars {
+    //  line-height: 1.1;
+    //  margin-bottom: 15px;
+    //}
+    //.icon-star3 {
+    //  color: rgba(251, 221, 1, 0.71);
+    //}
     .copy {
       font-weight: 400;
       line-height: 1.5;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 10px;
       @include font-size(17px, 16px, 18px, 20px, 19px);
     }
   }
   .slide3 {
     .title--no-insure {
-      color: #006674;
+      font-family: $ff-sanchez;
+      color: #000000;
       margin-bottom: 5px;
       line-height: 1;
-      font-weight: 700;
-      @include  font-size(71px, 65px, 35px);
+      font-weight: 400;
+      @include  font-size(60px, 55px, 35px);
     }
     .title--sub {
-      color: #435363;
-      font-family: $ff-poly;
-      font-style: italic;
-      font-weight: 400;
+      color: #016E92;
+      font-family: $ff-lato;
+      font-weight: 900;
       line-height: 1;
-      margin-bottom: 45px;
-      @include  font-size(53px, 43px, 35px);
+      margin-bottom: 55px;
+      text-transform: uppercase;
+      letter-spacing: 2.3px;
+      @include  font-size(35px, 32px, 35px);
     }
     .preventative-copy {
-      color: #515151;
+      font-family: $ff-sanchez;
+      color: #000000;
       font-weight: 400;
-      line-height: 1.4;
+      line-height: 1;
+      @include font-size(27px, 22px);
     }
     .btn {
       @include lr-padding(80px, 60px, 60px);
