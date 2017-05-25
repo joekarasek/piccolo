@@ -1,12 +1,12 @@
 /// Call to Action Two to One Layout
 .cta__two-to-one {
-  background-color: #A1D25E;
+  background-color: #ffffff;
   background-position: center;
   z-index: 100;
   position: relative;
   padding-bottom: 15px;
   padding-top: 15px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  //box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 
   .flex--wrapper {
     display: flex;
@@ -38,7 +38,7 @@
     padding-right: 15px;
     .text {
       color: #000000;
-      margin-bottom: 5px;
+      margin-bottom: 0;
       font-weight: 400;
     }
     &-number {
@@ -46,7 +46,7 @@
       font-weight: 700;
       margin-bottom: 0;
       line-height: 1;
-      font-family: $ff-poppins;
+      font-family: $ff-lato;
       @include font-size(36px, 33px, 30px, 28px, 28px);
       a {
         @include link-color(#000000);
@@ -92,6 +92,7 @@
     text-align: center;
     line-height: 1;
     .phone-number--existing {
+      font-weight: 700;
       @include  h5();
       @include link-color(#000000);
       &:hover {
