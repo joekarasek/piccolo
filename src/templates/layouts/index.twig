@@ -29,13 +29,12 @@
 
         {% include 'organisms/about.twig' %}
 
-        {% include 'organisms/specials--three-card.twig' %}
+        {% include 'organisms/new_specials.twig' %}
 
-        {% include 'molecules/cta__one.twig' with
-            {
-            'existingPatients': false
-            }
-        %}
+        {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'id="cta-two"',
+            existingPatients: false
+        } %}
 
         {% include 'organisms/reviews.twig' %}
 
