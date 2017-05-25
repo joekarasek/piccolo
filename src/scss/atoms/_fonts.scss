@@ -7,13 +7,13 @@
 
 
 body {
-	font-family: $ff-mont;
+	font-family: $ff-lato;
 	color: $c-black;
 	line-height: 1;
 }
 
 p {
-	font-family: $ff-mont;
+	font-family: $ff-lato;
 	margin-bottom: $spacing-sm;
 	font-size: 16px;
 }
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
 	color: #000000;
-	font-family: $ff-mont;
+	font-family: $ff-lato;
 	font-weight: 400;
 }
 
@@ -83,7 +83,7 @@ h1 {
 
 @mixin h2() {
 	@include headings();
-	@include font-size(56px, 48px, 44px, 40px, 35px);
+	@include font-size(50px, 44px, 40px, 38px, 35px);
 }
 
 .h2,
@@ -96,7 +96,7 @@ h2 {
 
 @mixin h3() {
 	@include headings();
-	@include font-size(32px, 28px, 28px, 24px, 20px);
+	@include font-size(36px, 32px, 28px, 24px, 20px);
 }
 
 .h3,

@@ -30,52 +30,48 @@
 
   .slide1 {
     .slide__title {
-      color: #435363;
-      font-family: $ff-poly;
+      color: #000000;
+      font-family: $ff-sanchez;
       line-height: 0.8;
       font-weight: 400;
-      text-align: left;
-      font-style: italic;
       margin-bottom: 0;
+      @include  h2();
     }
     .slide__title-smile {
-      color: #006674;
-      @include font-size(138px,
-              100px,
-              80px,
-              70px,
-              70px);
-      font-family: $ff-mont;
+      color: #016E92;
+      @include h3();
+      font-family: $ff-lato;
       font-weight: 700;
-      text-align: right;
       margin-bottom: 0;
       line-height: 1;
+      letter-spacing: 1.5px;
     }
     .slide__byline {
-      color: #4c4c4c;
-      font-family: $ff-poly;
+      color: #000000;
+      font-family: $ff-play;
       font-style: italic;
-      border-top: 2px solid #4C4C4C;
-      border-bottom: 2px solid #4C4C4C;
-      @include font-size(28px,
-              23px,
+      font-weight: 700;
+      margin-top: 30px;
+      @include font-size(40px,
+              36px,
               35px,
               30px,
               30px);
     }
 
     .slide__copy {
-      @include font-size(26px,
-              24px,
+      @include font-size(21px,
+              19px,
               24px,
               24px,
               24px);
-      color: #435363;
-      font-family: $ff-mont;
+      color: #000000;
+      font-family: $ff-sanchez;
       margin-top: 5px;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       line-height: 1;
       font-weight: 400;
+      text-transform: uppercase;
     }
 
     //Align to bottom of slide
