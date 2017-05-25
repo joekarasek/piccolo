@@ -1,16 +1,16 @@
 #section-insurance {
 
-  $c-no-insurance: #006674;
-  $c-sub-header: #435363;
-  $c-preventative: #515151;
+  $c-no-insurance: #000000;
+  $c-sub-header: #ffffff;
+  $c-preventative: #000000;
   $c-copy: #000000;
   $c-mobile-bg: white;
 
   padding-top: 50px;
-  background-image: url('/assets/insurance.jpg');
+  background-image: url('/assets/no-insurance_bkgd.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   @media (max-width: $width-sm - 1) {
     background-color: $c-mobile-bg;
     background-image: none;
@@ -20,10 +20,10 @@
   }
 
   .title {
-    font-family: $ff-mont;
+    font-family: $ff-sanchez;
     text-transform: uppercase;
-    font-weight: 700;
-    @include font-size(65px, 54px, 40px, 50px, 33px);
+    font-weight: 400;
+    //@include font-size(50px, 54px, 40px, 50px, 33px);
     @media (width: 768px) {
       font-size: 40px;
     }
@@ -32,23 +32,26 @@
     color: $c-no-insurance;
   }
   .sub-title {
-    font-family: $ff-poly;
-    font-style: italic;
-    @include font-size(45px,
-                       40px,
-                       30px,
-                       40px,
-                       25px);
-    font-weight: 700;
+    background-color: #008CBA;
+    @include font-size(24px,
+                       22px,
+                       20px,
+                       22px,
+                       22px);
+    font-weight: 900;
     color: $c-sub-header;
     margin-bottom: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    letter-spacing: 3px;
   }
   .care-text {
+    font-family: $ff-sanchez;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1;
     padding-top: 30px;
     color: $c-preventative;
-    @include font-size(32px, 30px, 24px, 28px, 20px);
+    @include font-size(27px, 25px, 22px, 27px, 20px);
   }
   .list-item {
     list-style: none;
