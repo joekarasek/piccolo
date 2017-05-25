@@ -22,8 +22,9 @@
 
     <div id="content" >
 
-        {% include 'organisms/call-to-action__three-to-one.twig' with {
-            id: 'id="cta-one"'
+        {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'id="cta-one"',
+            existingPatients: true
         } %}
 
         {% include 'organisms/about.twig' %}
