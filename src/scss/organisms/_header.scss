@@ -4,7 +4,7 @@
 
   $c-header: #ffffff ;
   $c-menu-trigger: #444444;
-  $nav-font: $ff-mont;
+  $nav-font: $ff-lato;
 
   &--transparent {
     position: absolute;
@@ -14,13 +14,31 @@
     }
   }
 
+  .menu-copy {
+    text-align: right;
+    line-height: 1;
+    padding-right: 25px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: $ff-lato;
+    margin-bottom: 0;
+    &__phone {
+      font-size: 22px;
+      font-weight: 700;
+      &:hover {
+        color: #000000;
+        text-decoration: none !important;
+      }
+    }
+  }
+
   #primary-menu > ul {
     margin-right: 0;
     border-right: none;
-    @include nav-color(#707070);
-    @include nav-color(#436972, 1, 400);
-    @include nav-color(#9A9E61, 2, 400);
-    @include nav-color(#56784F, 3, 400);
+    @include nav-color(#000000);
+    //@include nav-color(#436972, 1, 400);
+    //@include nav-color(#9A9E61, 2, 400);
+    //@include nav-color(#56784F, 3, 400);
   }
 
   #primary-menu-trigger {
@@ -55,7 +73,7 @@
   //when you scroll down
   &.sticky-header {
     #primary-menu ul {
-      padding-top: 30px;
+      padding-top: 15px;
       transition: padding-top .3s ease;
     }
   }
@@ -81,7 +99,7 @@
 
   //when you scroll down
   #primary-menu ul {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   &.sticky-header {
     #primary-menu ul {
@@ -96,24 +114,26 @@
       background-color: #ffffff;
     }
   }
-  #primary-menu ul li > a {
+  :not(.static-sticky) #primary-menu ul > li > a {
+    text-decoration: underline;
     letter-spacing: 1px;
-    font-size: 16px;
-    padding: 10px 12px;
-    font-family: $ff-poppins;
+    font-size: 18px;
+    padding: 15px 12px;
+    font-family: $ff-lato;
     text-transform: none;
+    transition: padding .3s ease;
     &:hover {
       text-decoration: none !important;
     }
     @media screen and (max-width: 1300px) {
       font-size: 15px;
-      padding: 10px 10px;
+      padding: 15px 10px;
       padding-bottom: 10px;
     }
     @media screen and (max-width: $width-lg) {
       font-size: 14px;
       letter-spacing: 0.7px;
-      padding: 10px 6px;
+      padding: 15px 6px;
       padding-bottom: 10px;
     }
     @media screen and (max-width: 1090px) {
@@ -122,7 +142,7 @@
     @media screen and (max-width: 991px) {
       padding-left: 40px !important;
       font-size: 18px;
-      padding: 10px 10px;
+      padding: 15px 10px;
     }
     @media screen and (max-width: $width-sm) {
     }
@@ -141,17 +161,17 @@
 #header,
 #header-wrap,
 #logo {
-  height: 100px !important;
+  height: 120px !important;
   transition: height .4s ease, opacity .3s ease;
   @media (max-width: $width-md) {
-  height: 80px !important;
+  height: 100px !important;
   }
 }
 #logo img {
-  height: 80px !important;
+  height: 100px !important;
   transition: height .4s ease, opacity .3s ease;
   @media (max-width: $width-md) {
-    height: 70px !important;
+    height: 85px !important;
   }
 }
 
@@ -160,5 +180,5 @@
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img,
 #header.sticky-header:not(.static-sticky) #logo {
-  height: 80px !important;
+  height: 100px !important;
 }
