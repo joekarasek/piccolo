@@ -210,7 +210,7 @@ var HelloWorldDevsTysonSteele = (function($,_) {
       nav: false,
       dots: false,
       margin: 40,
-      slideB: 1,
+      slideBy: 1,
       responsive: {
         480: {
           items: 2

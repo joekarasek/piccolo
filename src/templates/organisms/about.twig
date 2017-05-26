@@ -1,57 +1,31 @@
 <section id="section-about" class="clearfix about">
 
-    <div class="heading center">
-        <h2 class="heading__main">Meet the Doctors</h2>
-        <h3 class="heading__byline">of Tate Family Dentistry</h3>
-    </div>
-
-    <div class="container">
-        <div class="about__content">
-            <img src="assets/staff/DrHaley_Tate.jpg" alt="Doctor Tate" class="about__image-wrapper">
-            <div class="about__copy-wrapper">
-                <h3 class="about__doctor-name">Haley Tate, DDS</h3>
-                <h3 class="about__doctor-title">General Dentist</h3>
-                <p class="about__copy">The minute you walk through the door, you will know you've come to the right place.
-                    The office's relaxing environment and warm, inviting staff members will make you feel right at home, and
-                    Dr. Tates's use of the latest advances in technology - including digital x-rays, CEREC one-visit
-                    restorations, and in-office smile whitening - will help you and your family maintain beautiful smiles
-                    for a lifetime. Best of all, Dr. Tate takes the time to get to know each and every patient one on one,
-                    helping you make informed choices about your dental health.</p>
-                <p class="about__copy">A Maryland native and a graduate of the University of Maryland School of Dentistry,
-                    Dr. Tate is a former naval dental officer and is currently an active member of the Maryland Dental
-                    Association, of which he was recently vice president. He and his wife, Carol, have two children.</p>
-            </div>
+    <div class="about__doctor">
+        <div class="heading center">
+            <h2 class="heading__main">Meet the Team</h2>
         </div>
-    </div>
-
-    <div class="doctor-anderson__wrapper">
         <div class="container">
-            <div class="about__content">
-                <div class="about__copy-wrapper">
-                    <h3 class="about__doctor-name">Michael Anderson, DDS</h3>
-                    <h3 class="about__doctor-title">General Dentist</h3>
-                    <p class="about__copy">Dr. Anderson grew up in Rockville, Maryland. Since his teenage years, Dr.
-                        Anderson has had an interest in dentistry and oral health. After completing high school, he attended
-                        the University of Maryland, College Park where he obtained a degree in General Biology, with Honors.
-                        From there, Dr. Anderson pursued his interest in dentistry at the Baltimore College of Dental
-                        Surgery, University of Maryland. Upon completing his dental degree, he moved to York, Pennsylvania
-                        for a General Practice Residency at the York Hospital Dental Center. Here he received advanced
-                        training in topics of general dentistry including oral surgery, pediatrics, management of dental
-                        emergencies and dental implant placement.</p>
-                    <p class="about__copy">One of the things Dr. Anderson enjoys most about dentistry is interacting with
-                        his patients in a meaningful way as he helps them obtain a beautiful, healthy smile.</p>
+            <div class="doctor__wrapper">
+                <div class="doctor__video">
+                    <iframe src="https://player.vimeo.com/video/217569490" width="640" height="853" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-                <img src="assets/staff/dranderson.jpg" alt="Doctor Tate" class="about__image-wrapper">
+                <div class="doctor__text">
+                    <h3 class="doctor__name">Thomas J. Piccolo, DDS, FAGD</h3>
+                    <h5 class="doctor__byline">General & Cosmetic Dentist</h5>
+                    <p class="doctor__copy">If you’re looking for a great place to smile, look no further than the
+                        office of Dr. Thomas J. Piccolo. The office’s comforting atmosphere and warm, inviting team will
+                        make you feel right at home. Our experience, technology, and expertise in cosmetic dentistry,
+                        dental implants, and dentures ensures that every restoration is carefully crafted.</p>
+                    <p class="doctor__copy">Dr. Piccolo attained his Doctorate of Dental Surgery from the Creighton
+                        University School of Dentistry in Omaha and has been practicing dentistry in Scottsdale since
+                        1985. Dr. Piccolo has attended the L.D. Pankey Institute, the Kois Center®, Frank Spear®
+                        Education, and others for additional dental training, and stays up-to-date with the latest
+                        dental technology and techniques to better serve his patients.</p>
+                    {%  include 'molecules/associations__carousel.twig' %}
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="about__team-carousel">
-        {#{% include 'molecules/team__carousel.twig' %}#}
-    </div>
-
-
-    {%  include 'molecules/associations__carousel.twig' %}
 
     <div class="about__team-slab">
         <div class="container">
