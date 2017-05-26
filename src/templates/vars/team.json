@@ -1,0 +1,81 @@
+{
+  "team": [
+    {
+      "name": "Carol Tate",
+      "carousel": true,
+      "modalTarget": "carol",
+      "image": "_0001_Carol_Tate.jpg",
+      "title": "Office Manager",
+      "text": [
+        "Carol has been involved with Dr. Tate's practice since the doors opened in 1996. She has worn many hats over the years and currently serves as our Office Manager, overseeing the administrative side of the practice.",
+        "In her free time Carol enjoys spending time with her family and scrapbooking."
+      ]
+    },
+    {
+      "name": "Lauren Necciai",
+      "carousel": true,
+      "modalTarget": "lauren",
+      "image": "_0002_Lauren_Necciai.jpg",
+      "title": "???",
+      "text": [
+        "Please provide"
+      ]
+    },
+    {
+      "name": "Kelsey Pickary",
+      "carousel": true,
+      "modalTarget": "kelsey",
+      "image": "_0003_Kelsey_Pickard.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "Kelsey joined the team in 2014 and is a Frederick County native.",
+        "She enjoys building relationships with patients and seeing the results of beautiful dentistry. It is important to her that patients are comfortable and to ensure that they are getting the best dental care possible.",
+        "Outside of her day job, Kelsey enjoys continuing her education as well as spending time with her family and friends."
+      ]
+    },
+    {
+      "name": "Deborah Senn",
+      "carousel": true,
+      "modalTarget": "deb",
+      "image": "_0004_Deborah_Senn.jpg",
+      "title": "???",
+      "text": [
+        "???"
+      ]
+    },
+    {
+      "name": "Senay Tillery",
+      "carousel": true,
+      "modalTarget": "senay",
+      "image": "_0005_Senay_Tillery.jpg",
+      "title": "???",
+      "text": [
+        "???"
+      ]
+    },
+    {
+      "name": "Brittany Cornelius",
+      "carousel": true,
+      "modalTarget": "brit",
+      "image": "_0006_Brittany_Cornelius.jpg",
+      "title": "Front Office Coordinator",
+      "text": [
+        "Brittany is a Maryland native who has enjoyed working in the dental industry since 2007. She is the first person that you're likely to speak with, and meet, at our office. Always striving for superior service and making your visit a smooth experience, she will assist you in any way possible. She is proud to work for doctors who are honest, and provide excellent, quality care.",
+        "Away from the office, Brittany spends quality time with her husband and family, traveling, and enjoying the great outdoors."
+      ]
+    },
+    {
+      "name": "Margo Ebersole",
+      "carousel": true,
+      "modalTarget": "margo",
+      "image": "_0007_Margo_Ebersole.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "Margo Ebersole, CDA, joined our team in 2015.",
+        "Margo has been a certified Dental Assistant since 1997. She earned her degree from the Medix School, located in Towson, Maryland. After the completion of that program,she earned her national certification in dental assisting. She also has experience in the health care field, previously working as a nursing assistant and is radiology certified.",
+        "Margo is married and resides in Jefferson, Maryland. In her spare time she enjoys painting, making jewelry, the outdoors and traveling.",
+        "As part of Dr. Tate's team, she hopes to make your dental experience relaxing and pleasurable from start to finish. She truly looks forward to assisting with all your dental needs."
+      ]
+    }
+  ]
+}

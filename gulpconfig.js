@@ -86,6 +86,11 @@ module.exports = {
     twig: {
       enabled: true,
       baseDir: 'src/templates/',
+      dataSrc: [
+        'src/templates/vars/general.json',
+        'src/templates/vars/services.json',
+        'src/templates/vars/team.json',
+      ],
     },
   },
   assets: {

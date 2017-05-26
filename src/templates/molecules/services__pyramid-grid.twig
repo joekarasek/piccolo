@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             {% for service in services %}
-                <div class="col-sm-6 col-md-3 service-card"><a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal" class="image-link"><img src="assets/services/{{ service.image }}" alt="{{ service.title }}"></a>
+                <div class="{{ service.doubleWide ? 'col-md-6 ' : 'col-sm-6 col-md-3' }}service-card"><a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal" class="image-link"><img src="assets/services/{{ service.image }}" alt="{{ service.title }}"></a>
                     <div class="services--thumbnail-text odd">
                         <h6><a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal">{{ service.title }}</a></h6>
                         <a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal" class="services-plus">LEARN MORE</a>
