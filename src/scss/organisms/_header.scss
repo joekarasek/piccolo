@@ -3,7 +3,7 @@
   height: 100px;
 
   $c-header: #ffffff ;
-  $c-menu-trigger: #444444;
+  $c-menu-trigger: #000000;
   $nav-font: $ff-lato;
 
   &--transparent {
@@ -109,9 +109,11 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #006674;
-      border-bottom: 1px solid #006674;
+      border-top: 1px solid #000000;
       background-color: #ffffff;
+      &:last-child {
+        border-bottom: 1px solid #000000;
+      }
     }
   }
   :not(.static-sticky) #primary-menu ul > li > a {

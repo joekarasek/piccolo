@@ -23,7 +23,7 @@
     font-family: $ff-sanchez;
     text-transform: uppercase;
     font-weight: 400;
-    //@include font-size(50px, 54px, 40px, 50px, 33px);
+    @include font-size(50px, 44px, 40px, 38px, 32px);
     @media (width: 768px) {
       font-size: 40px;
     }
@@ -58,7 +58,7 @@
     p {
       color: $c-copy;
       list-style: none;
-      @include font-size(21px, 19px, 14px, 19px, 15px);
+      @include font-size(21px, 19px, 14px, 19px, 14px);
       font-size: 21px;
       margin-bottom: 0;
       line-height: 1.2;
