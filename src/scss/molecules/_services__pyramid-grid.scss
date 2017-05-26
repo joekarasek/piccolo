@@ -21,11 +21,11 @@
     &__image-link {
       width: 100%;
       display: block;
-      @media (min-width: 1200px) {
-        img { height: 255px; }
-      }
       @media (min-width: 992px) {
         img { height: 205px; }
+      }
+      @media (min-width: 1200px) {
+        img { height: 255px; }
       }
     }
 

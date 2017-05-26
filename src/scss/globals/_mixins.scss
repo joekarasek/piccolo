@@ -48,7 +48,7 @@
 /// Hover Effect - Plus Sign with Darken
 /// @group effects
 @mixin hover-plus() {
-  margin: 0 auto;
+  //margin: 0 auto;
   display: inline-block;
   position: relative;
   &:after {
