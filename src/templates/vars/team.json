@@ -1,80 +1,44 @@
 {
   "team": [
     {
-      "name": "Carol Tate",
+      "name": "Cindy",
       "carousel": true,
-      "modalTarget": "carol",
-      "image": "_0001_Carol_Tate.jpg",
+      "modalTarget": "cindy",
+      "image": "cindy.jpg",
+      "title": "Office Receptionist",
+      "text": [
+        "Hi my name is Cindy. I moved here nineteen years ago from Illinois, to escape the cold winters. I have three wonderful children and I’m very blessed with 4 beautiful grandchildren. My newest family member is my sweet puppy Mitzy. I will be the first and last face you see when you visit our office. I am very fortunate to have been able to join Dr. Piccolo’s fantastic team. I look forward to getting to know you on your next visit."
+      ]
+    },
+    {
+      "name": "Johnnie",
+      "carousel": true,
+      "modalTarget": "Johnnie",
+      "image": "johnnie.jpg",
       "title": "Office Manager",
       "text": [
-        "Carol has been involved with Dr. Tate's practice since the doors opened in 1996. She has worn many hats over the years and currently serves as our Office Manager, overseeing the administrative side of the practice.",
-        "In her free time Carol enjoys spending time with her family and scrapbooking."
+        "My love for dentistry began thirty one years ago in Northern California. Working as a registered dental assistant and office manager. After moving to the hottest place on the plant! I was lucky enough to join Dr Piccolo’s team. Together we share a passion to provide genuine quality care to our patients. When I’m not working, I enjoy spending time with my husband, five children and five grandchildren. We love to BBQ, watch football and basketball. As well as spending time with my three dogs and two ferrets."
       ]
     },
     {
-      "name": "Lauren Necciai",
+      "name": "Amber",
       "carousel": true,
-      "modalTarget": "lauren",
-      "image": "_0002_Lauren_Necciai.jpg",
-      "title": "???",
+      "modalTarget": "amber",
+      "image": "amber.jpg",
+      "title": "Dental Hygienist",
       "text": [
-        "Please provide"
+        "I moved to Phoenix from Atlanta, GA in 2003. I graduated from Fortis College, Summa Cum Laude, with my degree in Dental Hygiene, and I am also a graduate of Arizona State University. Go Devils!",
+        "During my free time, I enjoy spending time with my family, friends, and pets. I have two Rottweiler’s, Jasper and Willow, who keep me busy when I am not helping my patients improve their oral hygiene. I also enjoy gardening, playing cards, and traveling to Georgia to see my adorable niece and nephew."
       ]
     },
     {
-      "name": "Kelsey Pickary",
+      "name": "Yazmine",
       "carousel": true,
-      "modalTarget": "kelsey",
-      "image": "_0003_Kelsey_Pickard.jpg",
+      "modalTarget": "yazmine",
+      "image": "yazmine.jpg",
       "title": "Dental Assistant",
       "text": [
-        "Kelsey joined the team in 2014 and is a Frederick County native.",
-        "She enjoys building relationships with patients and seeing the results of beautiful dentistry. It is important to her that patients are comfortable and to ensure that they are getting the best dental care possible.",
-        "Outside of her day job, Kelsey enjoys continuing her education as well as spending time with her family and friends."
-      ]
-    },
-    {
-      "name": "Deborah Senn",
-      "carousel": true,
-      "modalTarget": "deb",
-      "image": "_0004_Deborah_Senn.jpg",
-      "title": "???",
-      "text": [
-        "???"
-      ]
-    },
-    {
-      "name": "Senay Tillery",
-      "carousel": true,
-      "modalTarget": "senay",
-      "image": "_0005_Senay_Tillery.jpg",
-      "title": "???",
-      "text": [
-        "???"
-      ]
-    },
-    {
-      "name": "Brittany Cornelius",
-      "carousel": true,
-      "modalTarget": "brit",
-      "image": "_0006_Brittany_Cornelius.jpg",
-      "title": "Front Office Coordinator",
-      "text": [
-        "Brittany is a Maryland native who has enjoyed working in the dental industry since 2007. She is the first person that you're likely to speak with, and meet, at our office. Always striving for superior service and making your visit a smooth experience, she will assist you in any way possible. She is proud to work for doctors who are honest, and provide excellent, quality care.",
-        "Away from the office, Brittany spends quality time with her husband and family, traveling, and enjoying the great outdoors."
-      ]
-    },
-    {
-      "name": "Margo Ebersole",
-      "carousel": true,
-      "modalTarget": "margo",
-      "image": "_0007_Margo_Ebersole.jpg",
-      "title": "Dental Assistant",
-      "text": [
-        "Margo Ebersole, CDA, joined our team in 2015.",
-        "Margo has been a certified Dental Assistant since 1997. She earned her degree from the Medix School, located in Towson, Maryland. After the completion of that program,she earned her national certification in dental assisting. She also has experience in the health care field, previously working as a nursing assistant and is radiology certified.",
-        "Margo is married and resides in Jefferson, Maryland. In her spare time she enjoys painting, making jewelry, the outdoors and traveling.",
-        "As part of Dr. Tate's team, she hopes to make your dental experience relaxing and pleasurable from start to finish. She truly looks forward to assisting with all your dental needs."
+        "Hello beautiful Arizona! My name is Yazmine. I am Dr. Piccolo newest team member and his dental assistant. I have been assisting for over fifteen years. I’m originally from San Diego, CA. I have two great kids and two dogs, one pug and one Chinese crested - they are my loves. I decided to move here to follow my best friend (my sister) and her family. I’m very happy and love my new job. I look forward to providing our patients with excellent caring service. Welcome to our beautiful office I look forward to meeting."
       ]
     }
   ]

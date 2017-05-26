@@ -1,7 +1,7 @@
 <!--Team Modals-->
 <div class="team-modal-wrapper">
     {% for person in team %}
-        <div id="team-modal{{ person.modalTarget }}" class="modal fade" tabindex="-1" role="dialog">
+        <div id="team--{{ person.modalTarget }}" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -9,7 +9,7 @@
                         <h4 class="modal-title">{{ person.name }}</h4>
                     </div>
                     <div class="modal-body">
-                        <div class="modal-image hidden-xs hidden-sm"><img src="assets/staff/{{ person.image }}" alt="{{ person.name }}"></div>
+                        <div class="modal-image hidden-xs hidden-sm"><img src="assets/team/{{ person.image }}" alt="{{ person.name }}"></div>
                         {% for paragraph in person.text %}
                             <p>{{ paragraph }}</p>
                         {% endfor %}

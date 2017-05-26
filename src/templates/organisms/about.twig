@@ -47,36 +47,45 @@
     </div>
 
     <div class="about__team-carousel">
-        {% include 'molecules/team__carousel.twig' %}
+        {#{% include 'molecules/team__carousel.twig' %}#}
     </div>
 
 
-    {#{%  include 'molecules/associations__carousel.twig' %}#}
+    {%  include 'molecules/associations__carousel.twig' %}
 
-    {#   About section video slab with modal   #}
-    {#{% include 'molecules/video-promo--full-slab-with-modal.twig' %}#}
-    {#<div class="about__video">#}
-    {#<div class="about__heading">#}
-    {#<h2 class="about__title">Watch Our Video</h2>#}
-    {#</div>#}
-    {#<div class="about__video-thumb">#}
-    {#<a href="#" data-toggle="modal" data-target="#video-modal">#}
-    {#<img src="assets/video-thumb.jpg" alt="Watch a video with {{ mainDoctor }}">#}
-    {#</a>#}
-    {#</div>#}
-    {#</div>#}
-    {#<div id="video-modal" class="modal fade" tabindex="-1" role="dialog">#}
-    {#<div class="modal-dialog" role="document">#}
-    {#<div class="modal-content">#}
-    {#<div class="modal-header">#}
-    {#<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>#}
-    {#<h3 class="modal-title">Buy Back Bling</h3>#}
-    {#</div>#}
-    {#<div class="modal-body">#}
-    {#<iframe width="560" height="315" src="https://www.youtube.com/embed/ij80aLjokfA" allowfullscreen id="video-iframe"></iframe>#}
-    {#</div>#}
-    {#</div><!-- /.modal-content -->#}
-    {#</div><!-- /.modal-dialog -->#}
-    {#</div><!-- /.modal -->#}
+    <div class="about__team-slab">
+        <div class="container">
+            <div class="team-card__wrapper">
+                {% for person in team %}
+                    <div class="team-card">
+                        <a href="#" data-target="#team--{{ person.modalTarget }}" data-toggle="modal" class="team-card__image">
+                            <img src="assets/team/{{ person.image }}" alt="{{ person.name }}">
+                        </a>
+                        <a href="#" data-target="#team--{{ person.modalTarget }}" data-toggle="modal" class="team-card__name">{{ person.name }}</a>
+                        <a href="#" data-target="#team--{{ person.modalTarget }}" data-toggle="modal" class="team-card__byline">{{ person.title }}</a>
+                        <a href="#" data-target="#team--{{ person.modalTarget }}" data-toggle="modal" class="team-card__read-more">Read More</a>
+                    </div>
+                {%  endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="about__video-slab">
+        <div class="container">
+            <div class="video-slab__wrapper">
+                <div class="video-slab__copy center">
+                    <h2 class="video-slab__title">Caring Dentistry</h2>
+                    <h3 class="video-slab__byline">FOR OUR COMMUNITY</h3>
+                    <p class="video-slab__text">When News 12 was contacted by a woman who needed help dealing with dental
+                        pain, Dr. Tom Piccolo responded and helped restore her smile. Hear Melody’s story.</p>
+                </div>
+                <div class="video-slab__iframe">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gl1E6QP7sgY" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'molecules/team__modals.twig' %}
 </section>
 

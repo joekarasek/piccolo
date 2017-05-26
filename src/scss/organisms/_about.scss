@@ -28,12 +28,6 @@
     }
   }
 
-  .doctor-anderson__wrapper {
-    background-color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
   &__content {
     display: flex;
     flex-direction: column;
@@ -45,55 +39,153 @@
       align-items: center;
     }
   }
-    &__image-wrapper {
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-      @media (min-width: $width-sm) {
-        width: 40%;
-      }
-      @media (min-width: $width-md) {
-        width: 35%;
-      }
-      @media (max-width: $width-sm) {
-        margin-bottom: 15px;
-        img { max-width: 280px; }
-      }
+  &__image-wrapper {
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    @media (min-width: $width-sm) {
+      width: 40%;
     }
-    &__copy-wrapper {
-      @media (min-width: $width-sm) {
-        padding: 0 20px;
-        width: 60%;
-      }
+    @media (min-width: $width-md) {
+      width: 35%;
     }
-      &__doctor-name {
-        color: #435363;
-        font-family: $ff-mont;
-        margin-bottom: 0;
-      }
-      &__doctor-title {
-        color: #435363;
-        font-family: $ff-poly;
-        font-style: italic;
-        line-height: 1;
-        margin-bottom: 20px;
-      }
-      &__copy {
-        color: #585756;
-        font-size: 14px;
-        line-height: 1.5 !important;
-      }
+    @media (max-width: $width-sm) {
+      margin-bottom: 15px;
+      img { max-width: 280px; }
+    }
+  }
+  &__copy-wrapper {
+    @media (min-width: $width-sm) {
+      padding: 0 20px;
+      width: 60%;
+    }
+  }
+  &__doctor-name {
+    color: #435363;
+    font-family: $ff-mont;
+    margin-bottom: 0;
+  }
+  &__doctor-title {
+    color: #435363;
+    font-family: $ff-poly;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  &__copy {
+    color: #585756;
+    font-size: 14px;
+    line-height: 1.5 !important;
+  }
 
   &__video {
     background-color: #195B87;
     border-bottom: solid 5px #ffffff;
   }
-    &__video-thumb {
-      text-align: center;
-      img {
-        border: solid 10px #ffffff;
-        margin-bottom: 45px;
+  &__video-thumb {
+    text-align: center;
+    img {
+      border: solid 10px #ffffff;
+      margin-bottom: 45px;
+    }
+  }
+
+  //team slab
+  &__team-slab {
+    background-color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 30px;
+  }
+  .team-card {
+    padding: 0 10px;
+    width: 25%;
+    @media (max-width: 767px) {
+      width: 50%;
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    &__image {
+      display: block;
+      margin-bottom: 15px;
+    }
+    &__name {
+      display: block;
+      font-weight: 900;
+      margin-bottom: 5px;
+      line-height: 1;
+      @include font-size(24px,
+              22px,
+              20px,
+              20px,
+              20px);
+      @include link-color(#000000);
+    }
+    &__byline {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px;
+      line-height: 1;
+      @include link-color(#000000);
+    }
+    &__read-more {
+      display: block;
+      text-decoration: underline;
+      margin-bottom: 5px;
+      line-height: 1;
+      @include link-color(#000000);
+    }
+    &:hover {
+      .team-card__image {
+        @include hover-plus();
+      }
+      .team-card__name {
+        text-decoration: underline;
+      }
+      .team-card__byline {
+        text-decoration: underline;
       }
     }
+  }
+
+  //Video Slab
+  &__video-slab {
+    background-color: #016e92;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .video-slab {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    &__copy, &__iframe {
+      width: 100%;
+      @media (min-width: 768px) {
+        width: 47.5%;
+      }
+    }
+    &__title {
+      color: #ffffff;
+      font-family: $ff-sanchez;
+      margin-bottom: 5px;
+      line-height: 1;
+    }
+    &__byline {
+      color: #ffffff;
+      @include h5();
+    }
+    &__text {
+      color: #ffffff;
+    }
+  }
 }
 
 
