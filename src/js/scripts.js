@@ -3,7 +3,9 @@
   // ======= Fixes =======
   HelloWorldDevsTysonSteele.noOrphans('h1,h2,h3,h4,h5,h6,li,p', '.allow-orphan');
   HelloWorldDevsTysonSteele.scrollToFix('#primary-menu');
-  HelloWorldDevsTysonSteele.stopVideoModal('#video-modal', '#video-iframe');
+  HelloWorldDevsTysonSteele.stopVideoModal('#video-review-modal--one', '#video-review-iframe--one');
+  HelloWorldDevsTysonSteele.stopVideoModal('#video-review-modal--two', '#video-review-iframe--two');
+  HelloWorldDevsTysonSteele.stopVideoModal('#video-review-modal--three', '#video-review-iframe--three');
 
   // ======= Request Appointment Form =======
   HelloWorldDevsTysonSteele.requestAppointment('#mail-form', '#success_msg' , '7fb35345-752d-4792-9480-cd3db6674a62');
