@@ -7,9 +7,13 @@
     height:350px;
   }
   @media (min-width: $width-md) {
-    height: 1000px;
+    height: 570px;
   }
   @media (min-width: $width-lg) {
-    height: 1060px;
+    height: 600px;
   }
+}
+
+.location__map {
+  padding-bottom: 30px;
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   background: $c-white;
-  margin: 30px 0;
+  //margin: 30px 0;
   @media (max-width: $width-md) {
     margin-bottom: 5px;
     margin-top: 0px;
@@ -12,29 +12,30 @@
     padding-right: 0;
   }
 
-  &__office-image {
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    max-width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-    @media (max-width: 991px) {
-      order: -1;
-    }
-  }
+  //&__office-image {
+  //  padding-left: 20px;
+  //  padding-right: 20px;
+  //  width: 100%;
+  //  max-width: 550px;
+  //  margin-left: auto;
+  //  margin-right: auto;
+  //  @media (max-width: 991px) {
+  //    order: -1;
+  //  }
+  //}
 
   &__logo {
     &--wrapper {
       //background-color: #323437;
       text-align: center;
       padding-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 30px;
       @media (max-width: $width-md) {
         background: none;
       }
     }
-    max-height: 115px;
+    //max-height: 115px;
+    width: 300px;
   }
 
   &__content {
@@ -57,48 +58,48 @@
     color: #444444;
   }
   &__address {
-    color: #222222;
-    font-size: 22px;
+    color: #000000;
+    font-size: 20px;
   }
   &__map-link {
-    color: #62891B;
-    font-family: $ff-mont;
+    color: #AA422F;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
   }
   &__new-patient-text {
-    color: #474747;
-    font-size: 17px;
-    margin-bottom: 10px;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 0px;
     line-height: 1.0;
   }
   &__new-patient-number {
     display: block;
     font-size: 44px;
-    @include font-size(44px, 42px, 40px, 38px, 36px);
-    font-weight: 900;
+    @include font-size(36px, 34px, 32px, 36px, 32px);
+    font-weight: 700;
     font-family: $ff-lato;
-    color: #0F6F7D;
-    margin-bottom: 15px;
+    color: #000000;
+    margin-bottom: 30px;
     line-height: 1;
     &:hover {
-      color: #0F6F7D;
+      color: #000000;
       text-decoration: none;
     }
   }
   &__existing-patient-text {
-    color: #444444;
+    color: #000000;
     margin-top: 15px;
     line-height: 1;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
   }
   &__existing-patient-number {
-    font-size: 21px;
+    font-size: 24px;
     line-height: 1;
     margin-bottom: 30px;
-    color: #444444;
+    color: #000000;
     &:hover {
-      color: #444444;
+      color: #000000;
       text-decoration: none;
     }
   }
@@ -119,11 +120,18 @@
   }
 
   .hours-table {
+    table {
+      margin-bottom: 0;
+    }
     h5 {
       font-weight: 700;
-      color: #5a710d;
+      color: #000000;
+      text-transform: uppercase;
     }
     tbody {
+      font-size: 18px;
+      font-family: $ff-lato;
+      line-height: 1.5;
       margin-left: auto;
       margin-right: auto;
     }
