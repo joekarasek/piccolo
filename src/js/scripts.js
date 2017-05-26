@@ -14,14 +14,20 @@
     effect: 'fade',
     speed: 500
   });
-  // HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
-  //   items: 1,
-  //   navText: [
-  //     '<i class="icon-chevron-left"></i>',
-  //     '<i class="icon-chevron-right"></i>'
-  //   ]
-  // });
-  //
+  HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
+    items: 1,
+    margin: 40,
+    navText: [
+      '<i class="icon-chevron-left"></i>',
+      '<i class="icon-chevron-right"></i>'
+    ],
+    responsive: {
+      768: {
+        items: 2
+      }
+    }
+  });
+
 
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
     items: 2,
