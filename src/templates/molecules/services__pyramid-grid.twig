@@ -3,10 +3,14 @@
     <div class="container-fluid">
         <div class="row">
             {% for service in services %}
-                <div class="{{ service.doubleWide ? 'col-md-6 ' : 'col-sm-6 col-md-3' }}service-card"><a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal" class="image-link"><img src="assets/services/{{ service.image }}" alt="{{ service.title }}"></a>
-                    <div class="services--thumbnail-text odd">
-                        <h6><a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal">{{ service.title }}</a></h6>
-                        <a href="#" data-target="#service--{{ service.modalTarget }}" data-toggle="modal" class="services-plus">LEARN MORE</a>
+                <div class="{{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} service-card">
+                    <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="service-card__image-link">
+                        <img src="assets/services/{{ service.image }}" alt="{{ service.title }}">
+                    </a>
+                    <div class="service-card__copy">
+                        <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="service-card__title {{ service.titleMobil ? 'hidden-xs hidden-sm' : '' }}">{{ service.title }}</a>
+                        <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="service-card__title {{ service.titleMobil ? 'hidden-lg hidden-md' : 'hidden' }}">{{ service.titleMobil }}</a>
+                        <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="services-plus service-card__learn-more">LEARN MORE</a>
                     </div>
                 </div>
             {% endfor %}

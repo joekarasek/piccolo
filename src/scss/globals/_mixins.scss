@@ -59,8 +59,7 @@
     color: white;
     font-size: 60px;
     left: 50%;
-    margin-left: -17px;
-    margin-top: -45px;
+    transform:  translate(-50%, -50%);
     z-index: 11;
   }
   &:before {

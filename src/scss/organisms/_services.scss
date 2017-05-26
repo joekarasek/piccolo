@@ -1,18 +1,17 @@
 #section-services {
+  padding-bottom: 30px;
 
   .heading {
-    background-color: #006674;
     text-align: center;
     &__title {
-      color: #ffffff;
-      margin-bottom: 10px;
+      color: #000000;
+      font-family: $ff-sanchez;
+      margin-bottom: 0;
       padding-top: $spacing-md;
-      padding-bottom: $spacing-sm;
     }
     &__byline {
-      color: #ffffff;
-      line-height: 1.9;
-      margin-bottom: 45px;
+      color: #000000;
+      margin-bottom: 30px;
       a {
         color: #ffffff;
         text-decoration: underline;
@@ -20,57 +19,57 @@
     }
   }
 
-  .service-slab {
-    padding-top: 90px;
-    padding-bottom: 120px;
-    @media (max-width: 1199px) {
-      padding-top: 50px;
-      padding-bottom: 70px;
-    }
-    @media (max-width: 767px) {
-      padding-bottom: 0;
-    }
-
-    &__title {
-      color: #066a78;
-      line-height: 1;
-      margin-bottom: 0;
-    }
-    &__byline {
-      color: #4e5d6c;
-      font-family: $ff-poly;
-      font-style: italic;
-    }
-    &__copy {
-      color: #585756;
-      line-height: 1.5;
-    }
-
-    &--family {
-      background-image: url(/assets/services/family-care.jpg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: right;
-      @media (max-width: 767px ) {
-        background-image: none;
-      }
-      @media (min-width: 768px) and (max-width: 991px) {
-        .service-slab__title {
-          font-size: 40px;
-        }
-        .service-slab__copy {
-          max-width: 300px;
-        }
-      }
-    }
-    &--cosmetic {
-      background-image: url(/assets/services/cosmetic.jpg);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: left;
-      @media (max-width: 767px ) {
-        background-image: none;
-      }
-    }
-  }
+  //.service-slab {
+  //  padding-top: 90px;
+  //  padding-bottom: 120px;
+  //  @media (max-width: 1199px) {
+  //    padding-top: 50px;
+  //    padding-bottom: 70px;
+  //  }
+  //  @media (max-width: 767px) {
+  //    padding-bottom: 0;
+  //  }
+  //
+  //  &__title {
+  //    color: #066a78;
+  //    line-height: 1;
+  //    margin-bottom: 0;
+  //  }
+  //  &__byline {
+  //    color: #4e5d6c;
+  //    font-family: $ff-poly;
+  //    font-style: italic;
+  //  }
+  //  &__copy {
+  //    color: #585756;
+  //    line-height: 1.5;
+  //  }
+  //
+  //  &--family {
+  //    background-image: url(/assets/services/family-care.jpg);
+  //    background-size: contain;
+  //    background-repeat: no-repeat;
+  //    background-position: right;
+  //    @media (max-width: 767px ) {
+  //      background-image: none;
+  //    }
+  //    @media (min-width: 768px) and (max-width: 991px) {
+  //      .service-slab__title {
+  //        font-size: 40px;
+  //      }
+  //      .service-slab__copy {
+  //        max-width: 300px;
+  //      }
+  //    }
+  //  }
+  //  &--cosmetic {
+  //    background-image: url(/assets/services/cosmetic.jpg);
+  //    background-size: contain;
+  //    background-repeat: no-repeat;
+  //    background-position: left;
+  //    @media (max-width: 767px ) {
+  //      background-image: none;
+  //    }
+  //  }
+  //}
 }
