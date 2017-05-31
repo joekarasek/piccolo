@@ -50,6 +50,11 @@
     &__copy {
       padding-bottom: 30px;
     }
+    &--cosmetic {
+      @media (max-width: 992px) {
+        clear: both;
+      }
+    }
   }
 
   .service-card:hover {

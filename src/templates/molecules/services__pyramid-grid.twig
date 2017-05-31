@@ -2,8 +2,8 @@
 <div class="services__pyramid-grid">
     <div class="container-fluid">
         <div class="row">
-            {% for service in services %}
-                <div class="{{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} service-card">
+            {% for index, service in services %}
+                <div class="{{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} service-card {{ index ==  5 ? 'service-card--cosmetic': ''}}">
                     <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="service-card__image-link">
                         <img src="assets/services/{{ service.image }}" alt="{{ service.title }}">
                     </a>
