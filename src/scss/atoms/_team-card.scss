@@ -1,6 +1,10 @@
 .team-card {
   text-align: center;
 
+  a {
+    display: inline-block;
+  }
+
   &__image {
     //height: 340px;
   }
