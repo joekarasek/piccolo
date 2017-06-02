@@ -100,15 +100,17 @@
       line-height: 1;
       @include link-color(#000000);
     }
-    &:hover {
-      .team-card__image {
-        @include hover-plus();
-      }
-      .team-card__name {
-        text-decoration: underline;
-      }
-      .team-card__byline {
-        text-decoration: underline;
+    @media screen and (min-width: 768px) {
+      &:hover {
+        .team-card__image {
+          @include hover-plus();
+        }
+        .team-card__name {
+          text-decoration: underline;
+        }
+        .team-card__byline {
+          text-decoration: underline;
+        }
       }
     }
   }
