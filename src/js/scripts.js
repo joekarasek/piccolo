@@ -30,7 +30,7 @@
     }
   });
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
-    items: 1,
+    items: 2,
     loop: true,
     autoplay: true,
     autoplaySpeed: 500,

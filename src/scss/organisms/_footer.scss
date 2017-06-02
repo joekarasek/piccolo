@@ -33,7 +33,10 @@
     }
   }
   .text {
-    text-align: right;
+    @media (min-width: 768px) {
+
+      text-align: right;
+    }
   }
   .tyson-steele-text {
     font-weight: 400;
