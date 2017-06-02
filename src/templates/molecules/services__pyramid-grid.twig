@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             {% for index, service in services %}
-                <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="{{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} service-card {{ index ==  5 ? 'service-card--cosmetic': ''}}">
+                <a href="#" data-target="#services--{{ service.modalTarget }}" data-toggle="modal" class="service-card {{ service.doubleWide ? 'col-md-6 service-card--double' : 'col-sm-6 col-md-3' }} {{ index ==  5 ? 'service-card--cosmetic': ''}}">
                     <div class="service-card__image-link">
                         <img src="assets/services/{{ service.image }}" alt="{{ service.title }}">
                     </div>

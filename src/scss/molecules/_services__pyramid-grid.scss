@@ -17,6 +17,8 @@
   }
 
   .service-card {
+    max-height: 448px;
+    display: block;
     text-align: center;
     &__image-link {
       width: 100%;
