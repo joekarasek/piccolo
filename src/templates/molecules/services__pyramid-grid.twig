@@ -12,7 +12,7 @@
                     <div class="service-card__copy">
                         <a href="#" data-toggle="modal" data-target="#services--{{ service.modalTarget }}">
                             <h5 class="service-card__title {{ service.titleMobil ? 'hidden-xs hidden-sm' : '' }}">{{ service.title }}</h5>
-                            <h6 class="service-card__title {{ service.titleMobil ? 'hidden-lg hidden-md' : 'hidden' }}">{{ service.titleMobil }}</h6>
+                           {% if service.titleMobil %}<h6 class="service-card__title {{ service.titleMobil ? 'hidden-lg hidden-md' : 'hidden' }}">{{ service.titleMobil }}</h6>{% endif %}
                             <h6 class="services-plus service-card__learn-more">LEARN MORE</h6>
                         </a>
                     </div>
